@@ -20,7 +20,7 @@ function MobileDropDown() {
       {isOpen && (
         <div className="dropdownmenu">
          
-            <div className="listborder p-2" onClick={toggleDropdown}><a className="custom-link pl-2" href="/">Home</a></div>
+            <div className="listborder p-2" onClick={toggleDropdown}><a className="custom-link pl-2" href="/homeopathy">Home</a></div>
             <div className="listborder p-2 pl-2" onClick={toggleDropdown}><a className="custom-link pl-2" href="#doc">About Us</a></div>
             <div className="p-2" onClick={toggleDropdown}><a className="custom-link pl-2" href="#foot">Contact Us</a></div>
          

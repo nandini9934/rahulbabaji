@@ -20,7 +20,7 @@ function Videos() {
         ))}
       </div>
       <div>
-        <button className="btn btn-danger float-right mb-5 mr-5" type="submit"><Link to="/testimonials">View More</Link></button>
+        <button className="btn btn-danger float-right px-4 py-2 mb-5 mr-5" type="submit"><Link to="/testimonials">View More</Link></button>
       </div>  
       <br/>
       <br/>

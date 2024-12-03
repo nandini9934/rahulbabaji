@@ -19,10 +19,12 @@ export default function Article() {
     }
 
   return (
-    <div id="doc" className='container heading py-20'>
+    <div id="doc" className='container'>
+      <div className="heading py-20">
         <div className="headers pb-4">Our Doctors</div>
        <div className="articleHead row"> 
           {articleContent.map((content,index)=>(renderCard(content,index)))}
+        </div>
         </div>
     </div>
   );

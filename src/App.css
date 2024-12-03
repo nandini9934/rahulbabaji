@@ -72,14 +72,13 @@ a:hover{
    -webkit-box-shadow: 0 6px 10px rgba(0,0,0,0.04);
    -moz-box-shadow: 0 6px 10px rgba(0,0,0,0.04);
   box-shadow: 0 6px 10px rgba(0,0,0,0.5);
-  width: 600px;
+  width: 540px;
 }
 .no
 {
   display: flex;
 
   align-items: center;
-  margin: 30px;
   box-shadow: 0 6px 10px rgba(0,0,0,0.5);
   border-radius: 15px;
   width:300px
@@ -122,6 +121,7 @@ a:hover{
 .cardDoctor img:hover{
   transform: scale(1.05);
   transition: 0.25s ease;
+  
 }
 .doctorDiv{
   display:flex;
@@ -241,7 +241,7 @@ width: 320px;
  .texti{
   position: absolute;
   top: 47%;
-  left: 22.5%; 
+  left: 29%; 
   font-size: 20px;
   font-weight: bolder;
   transform: translate(-50%, -50%);

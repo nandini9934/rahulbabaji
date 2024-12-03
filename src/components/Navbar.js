@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav id="navbar" className="container navbar-expand-lg" style ={{ backgroundColor: "rgba(255,255,255,0.83)" }}>
       <div className="container-fluid row gap-2">
-        <div className="col-1 pr-4">
+        <div className="col-1 pr-2 pr-xl-4 pt-1">
         <img className="logo-img" src={sitelogo} height="100px" width="100px" alt="newlogo"/>
         </div>
         <div className="col-6 col-xl-7 d-flex align-items-center">

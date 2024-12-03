@@ -35,10 +35,10 @@ function Numbers() {
   ];
   return (
     <div className='container py-20'>
-      <div className="headers mt-4">Total Patients Cured<br />{total}</div>
+      <div className="headers mt-4">Total Patients Cured<br />{}</div>
       <div className='row m-4' style={{ justifyContent: 'space-around' }}>
         {urlList.map((tempNo, index) => (
-          <div key={index} className="my-anchor-element no col-12 col-xl-4 mb-4 p-4 d-flex justify-content-center align-items-center">
+          <div key={index} className="my-anchor-element no col-6 col-xl-4 mb-4 py-4 d-flex justify-content-center align-items-center">
             <h4 data-tooltip-id={`tooltip-${index}`}>
               {tempNo.name}:<br />
               <div className='d-flex justify-content-center align-items-center'>{tempNo.no}</div>

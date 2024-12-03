@@ -14,7 +14,7 @@ function App() {
      <div className="sticky-header"> <Navbar /></div>
      <Router>
         <Routes>
-        <Route path="/homeopathy" element={<Home />} />
+        <Route path="/" element={<Home />} />
           <Route path="/testimonials" element={<Testimonials />} />
         </Routes>
       </Router>
