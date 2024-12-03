@@ -19,12 +19,12 @@ function Diseases() {
     ];
 
     return (
-        <div className='headersnew py-20'>
+        <div className='container headersnew py-20'>
             Treatment Available for Diseases
-            <div className='marquee-container'>
+            <div className='marquee-container '>
                 <ul className='marquee'>
                     {diseases.map((content, index) => (
-                        <li className='cardDisease col-xl-3 pr-3' key={index}>
+                        <li className='cardDisease col-xl-3 pr-3 ' key={index}>
                             <img className="imgi pt-2" src={content.url} alt="first" style={{ borderRadius: '20px' }} />
                             <h5 className='diseaseName'>{content.name}</h5>
                         </li>

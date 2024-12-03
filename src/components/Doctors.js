@@ -17,19 +17,20 @@ function Doctors() {
        { name: "Dr. Hukum Singh",designation:"BHMS", urL:Avinash}
     ]  
   return (
-    <div>
-      <div className='doctorDiv row'>    
+      <div className='container'>    
+      <div className="doctorDiv row gap-3">
          {doctor.map((content,index) =>(
-             <div className='cardDoctor col-3 mb-4'>
-                 <div className='doctorImg'>
-             <img src={content.urL} alt="docimg" height="250px" width="280px" className="img-fluid rounded overflow-hidden m-2"></img></div>
+             <div className='cardDoctor col-4 mb-4'>
+              <div className='doctorImg m-2'>
+                <div className="overflow-hidden">
+             <img src={content.urL} alt="docimg" height="250px" width="280px" className="img-fluid rounded hover:rounded"></img></div></div>
              <div><b>{content.name}</b></div>
              <div className='fs-7 pb-2'>{content.designation}</div>     
              </div>   
          ))}
           
       </div>
-    </div>
+      </div>
   )
 }
 

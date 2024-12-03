@@ -5,10 +5,11 @@ function Footer() {
     window.location.href = `tel:${9454900060}`;
   };
   return (
-    <footer id="foot" style={{ backgroundColor: '#000', color: 'white', padding: '20px' }}>
+    <footer className="container" id="foot" style={{ backgroundColor: '#000', color: 'white', padding: '20px' }}>
       <div className='containeri my-4 mx-4'>
         <div className='row'>
           <div className='col-xl-5 col-12'>
+            
               <h3 className='fw-bold'>
                 Dr Rahul Astro Homeopathic & Research Center
               </h3>

@@ -3,17 +3,17 @@ import sitelogo from './Images/sitelogo.png';
 import MobileDropDown from './MobileDropdown';
 function Navbar() {
   return (
-    <nav id="navbar" className="navbar-expand-lg " style ={{ backgroundColor: "rgba(255,255,255,0.83)" }}>
-      <div className="container-fluid row">
-        <div className="col-1">
+    <nav id="navbar" className="container navbar-expand-lg" style ={{ backgroundColor: "rgba(255,255,255,0.83)" }}>
+      <div className="container-fluid row gap-2">
+        <div className="col-1 pr-4">
         <img className="logo-img" src={sitelogo} height="100px" width="100px" alt="newlogo"/>
         </div>
-        <div className="col-6">
-        <h1><a className="navbar-brand header pt-4" href="/">
+        <div className="col-6 col-xl-7 d-flex align-items-center">
+        <div className="fs-4 fw-bold"><a className="navbar-brand header" href="/">
         Dr Rahul Astro Homeopathic & Research Center
-        </a></h1>
+        </a></div>
         </div>
-        <div className="col-5 ">
+        <div className="col-4">
           <MobileDropDown></MobileDropDown>
         <button
           className="navbar-toggler"
@@ -28,7 +28,7 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
         
-          <ul className="navbar-nav ms-auto mt-3  ">          
+          <ul className="navbar-nav ms-auto mt-3">          
             <li className="nav-item">
               <a className="nav-link active m-3 font-weight-bold" aria-current="page" href="#navbar">
               <h5> Home </h5>

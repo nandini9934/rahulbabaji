@@ -15,9 +15,7 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
   }
-  .docimage{
-  border-radius: 10px;
-      }
+
 body{
 }
 a{
@@ -32,6 +30,8 @@ a:hover{
   height: 40vmin;
   pointer-events: none;
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -104,7 +104,7 @@ a:hover{
   animation: marqueeiAnimation 20s linear infinite;
 }
 .cardDisease{
-  display: inline-block;
+  display: inline-table;
   border-radius: 20px;
   width:320px;
   margin-right: 60px;
@@ -121,6 +121,7 @@ a:hover{
 
 .cardDoctor img:hover{
   transform: scale(1.05);
+  transition: 0.25s ease;
 }
 .doctorDiv{
   display:flex;
@@ -199,12 +200,9 @@ height: 240px;
   transform: translate(-50%, -50%);
 }
 .btn {
-  position: absolute;
-  top: 70%;
-  left:9%; /* Adjust this value */
+  position: relative;
   background-color: rgba(0, 0, 0, 1) !important; /* Semi-transparent black background */
   color: white !important;
-  padding: 20px 100px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -216,6 +214,10 @@ height: 240px;
 .dropdown
 {
   display: none;
+}
+
+.row{
+  margin-right: inherit;
 }
 
 
@@ -247,9 +249,7 @@ width: 320px;
 
 .btn {
   position: absolute;
-  top: 70%;
-  left: 17%; /* Adjust this value */
-  transform: translate(-50%, -50%);
+  transform: translate(-20%, -12%);
   background-color: rgba(0, 0, 0, 1); /* Semi-transparent black background */
   color: white;
   padding: 10px 20px;

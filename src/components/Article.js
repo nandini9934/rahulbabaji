@@ -11,7 +11,7 @@ export default function Article() {
     {
         return(
         <div key={index} className="card article border-0 col-6">
-            <img className="docimage pt-3" src={content.imgSrc} alt="doc pic" height="300px" width="300px" />
+            <img className="rounded mt-3" src={content.imgSrc} alt="doc pic" height="300px" width="300px" />
             <h3 className="pt-3">{content.name}</h3>
             <p className="p-0">{content.title}</p>
             <p className="p-xl-0 px-4">{content.description}</p>
@@ -19,7 +19,7 @@ export default function Article() {
     }
 
   return (
-    <div id="doc" className='heading py-20'>
+    <div id="doc" className='container heading py-20'>
         <div className="headers pb-4">Our Doctors</div>
        <div className="articleHead row"> 
           {articleContent.map((content,index)=>(renderCard(content,index)))}

@@ -2,48 +2,75 @@ import React from "react";
 import ReactPlayer from "react-player";
 
 export default function Testimonials() {
-  const piles = [
-    "https://www.youtube.com/watch?v=SptC-_KJ2ws",
-    "https://www.youtube.com/watch?v=SptC-_KJ2ws",
+  const Infertility = [
+    "https://youtu.be/SptC-_KJ2ws",
+    "https://youtu.be/Jy0gsA35bPU",
+    "https://youtu.be/WWfVZsWlC_c"
   ];
-  const kidneyFailure = [
-    "https://www.youtube.com/watch?v=SptC-_KJ2ws",
-    "https://www.youtube.com/watch?v=SptC-_KJ2ws",
+  const Piles = [
+    "https://youtu.be/BTy91ksYDmc",
+    "https://youtu.be/S1T67xnoPGg",
+    "https://youtu.be/sZP8YSNU_MU"
   ];
-  const mind = [""];
-  const multipleOrganFailure = [""];
-  const autoImmuneDesease = [""];
-  const liver = [""];
-  const ENT = [""];
-  const eye = [""];
-  const diabetese = [""];
-  const cancer = [""];
+  const KidneyFailure = [
+    "https://youtu.be/b4Ue4u0XMZ4",
+    "https://youtu.be/RvM3pekjmRs",
+    "https://youtu.be/LiEP9yngb30"
+  ];
+  const Mind = [
+    "https://youtu.be/Ln5qpH6wIC8",
+    "https://youtu.be/dPI5QYynvcY",
+    "https://youtu.be/11xfJKY_SW8"
+  ];
+  const MultipleOrganFailure = [
+    "https://youtu.be/YKVHja9SREw",
+    "https://youtu.be/ke6i7dNSbYo",
+    "https://youtu.be/pggBNX-QUD4"
+  ];
+  const AutoImmuneDisease = [
+    "https://youtu.be/h-z-74ZFi88",
+    "https://youtu.be/QrcL1ftFIdI",
+    "https://youtu.be/KM7gUURRaIw"
+  ];
+  const Liver = [
+    "https://youtu.be/_o_DY4elrLk",
+    "https://youtu.be/vZ9t39miH64",
+    "https://youtu.be/hnzZHc9d-PM"
+  ];
+  const ENT = [
+    "https://youtu.be/2KogUXjsS3A",
+    "https://youtu.be/owBZrc15VdM",
+    "https://youtu.be/8MDTFfWD2Go"
+  ];
+  const Cancer = [
+    "https://youtu.be/RRjOrIuO_9Q",
+    "https://youtu.be/26M5y7aI_nM",
+    "https://youtu.be/DR6wbqEz714"
+  ];
   const allVideos = [
-    piles,
-    kidneyFailure,
-    mind,
-    multipleOrganFailure,
-    autoImmuneDesease,
-    liver,
+    Infertility,
+    Piles,
+    KidneyFailure,
+    Mind,
+    MultipleOrganFailure,
+    AutoImmuneDisease,
+    Liver,
     ENT,
-    eye,
-    diabetese,
-    cancer,
+    Cancer,
   ];
   const allVideosNames = [
+    "Infertility",
     "Piles",
     "Kidney Failure",
     "Mind",
     "Multiple Organ Failure",
-    "Auto Immune Desease",
+    "Auto Immune Disease",
     "Liver",
     "ENT",
-    "Eye",
-    "Diabetese",
     "Cancer",
   ];
   return (
-    <div>
+    <div className="container">
       {allVideos.map((v, i) => (
         <>
           <h1 className="text-formate ml-4">{allVideosNames[i]}</h1>
