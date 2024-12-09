@@ -224,6 +224,11 @@ height: 240px;
 /*------------------------------MOBILE VIEW CSS--------------------------------------*/
 
 @media only screen and (max-width: 600px) {
+
+  body {
+    overflow-x: hidden;
+  }
+  
   .docimage{
 width: 320px;
   }
