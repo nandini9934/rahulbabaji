@@ -6,7 +6,7 @@ function Footer() {
   };
   return (
     <footer className="container" id="foot" style={{ backgroundColor: '#000', color: 'white', padding: '20px' }}>
-      <div className='containeri my-4 mx-4'>
+      <div className='containeri my-2 mx-2'>
         <div className='row'>
           <div className='col-xl-5 col-12'>
             
@@ -31,11 +31,11 @@ function Footer() {
               <li>Arthritis</li>
             </ul>
           </div>
-          <div className='col-xl-2 col-6 pl-3'>
+          <div className='col-xl-2 col-6 pl-2 text-break'>
             <h3 className='fw-bold'>Contact Us</h3>
             <ul className='list-unstyled'>
               <li onClick={handleDial}>Call us : 9454900060</li>
-              <li><a className="custom-link" href="mailto:clinic@homeopathy.com">rahularyan9999@gmail.com</a></li>
+              <li><a className="custom-link" href="mailto:rahularyan9999@gmail.com">rahularyan9999@gmail.com</a></li>
               <li></li>
             </ul>
           </div>
